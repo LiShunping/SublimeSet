@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>${1:title}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="author" content="李顺平">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body class="page-${5:pageName}">
+	<style type="text/css" style="display:block;min-height:1.2em;border:1px solid #A5C7FE" contentEditable>
+		
+	</style>
+	<input type="submit" id="btn-test">
+	<script type="text/javascript">
+		document.getElementById('btn-test').onclick = function() {
+
+		};
+	</script>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html-test</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

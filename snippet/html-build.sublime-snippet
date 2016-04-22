@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>${1:title}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="author" content="李顺平">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link type="image/x-icon" rel="shortcut icon" href="${2:icon}">
+	<link type="text/css" rel="stylesheet" href="${3:css}">
+	<script type="text/javascript" src="${4:js}"></script>
+</head>
+<body class="page-${5:pageName}">
+	<script type="text/javascript">
+	</script>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html-build</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
