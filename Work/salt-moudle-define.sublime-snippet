@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+define([], function () {
+	'use strict';
+	return {
+		init: function() {}
+	};
+});
+]]></content>
+	<tabTrigger>moudle-define</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

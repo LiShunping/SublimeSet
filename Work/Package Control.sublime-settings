@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"ColorPicker",
+		"DocBlockr",
+		"Emmet",
+		"ESLint",
+		"HTML-CSS-JS Prettify",
+		"JSHint Gutter",
+		"Package Control",
+		"SublimeCodeIntel",
+		"Sublimerge Pro"
+	]
+}

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<#macro ${1:name} ${2:attribute} index>
+	<div class="${3:className}">
+	</div>
+</#macro>
+<#--
+<#list ${4:sequence} as ${5:item}>
+	<@${1:name} ${2:attribute}=${6:attributeValue}
+		index=item_index
+	>
+	</@${1:name}>
+</#list>
+-->
+]]></content>
+	<tabTrigger>macro</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
