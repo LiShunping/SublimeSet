@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<#include "../../../../inc/core.ftl" >
+<#assign isDebug = !stack?? />
+<#if isDebug?? && isDebug>
+	<#include "../../../../data/activity/${1:mockPath}">
+</#if>
+<@htmHead
+	title="${2:title}"
+	keywords="${3:keywords},${3:keywords}"
+	description="${4:description}"
+	css=["css/active/car/car2016/${5:cssPaths}"]
+	metaList=[{
+		"name":"viewport",
+		"content": "width=640px,user-scalable=no,minimal-ui"
+	}]
+/>
+<@topNav/>
+<#assign defaultData = {
+	"${6:keyPath}" : "\$\{cndBaseUrl\}/${7:valuePath}"
+}/>
+${8:html}
+<script>
+	${9:script}
+</script>
+<@docFoot js=["js/active/car/car2016/${10:scriptPath}"] clickCount=true/>
+]]></content>
+	<tabTrigger>page</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

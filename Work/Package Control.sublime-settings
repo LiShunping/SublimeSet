@@ -1,5 +1,9 @@
 {
 	"bootstrapped": true,
+	"channels":
+	[
+		"https://dn-52cik.qbox.me/channel_v3.json"
+	],
 	"in_process_packages":
 	[
 	],
@@ -7,11 +11,13 @@
 	[
 		"Alignment",
 		"ColorPicker",
+		"ConvertToUTF8",
 		"DocBlockr",
 		"Emmet",
 		"ESLint",
 		"HTML-CSS-JS Prettify",
 		"JSHint Gutter",
+		"MarkdownEditing",
 		"Package Control",
 		"SublimeCodeIntel",
 		"Sublimerge Pro"

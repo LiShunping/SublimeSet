@@ -2,6 +2,7 @@
 	<content><![CDATA[
 <#macro ${1:name} ${2:attribute} index>
 	<div class="${3:className}">
+		<#nested>
 	</div>
 </#macro>
 <#--
